@@ -190,14 +190,14 @@ function Sticker() {
         <div id="palette-side">
           <h3>Stickers</h3>
           <div className="palette-items">
-            <StickerItem src="/stickers/animal.png" onAdd={addSticker} />
-            <StickerItem src="/stickers/cars.png" onAdd={addSticker} />
-            <StickerItem src="/stickers/love.png" onAdd={addSticker} />
-            <StickerItem src="/stickers/paper_plane.png" onAdd={addSticker} />
-            <StickerItem src="/stickers/rainbow.png" onAdd={addSticker} />
-            <StickerItem src="/stickers/stars.png" onAdd={addSticker} />
-            <StickerItem src="/stickers/stars2.png" onAdd={addSticker} />
-            <StickerItem src="/stickers/sun.png" onAdd={addSticker} />
+            <StickerItem src={`${import.meta.env.BASE_URL}stickers/animal.png`} onAdd={addSticker} />
+            <StickerItem src={`${import.meta.env.BASE_URL}stickers/cars.png`} onAdd={addSticker} />
+            <StickerItem src={`${import.meta.env.BASE_URL}stickers/love.png`} onAdd={addSticker} />
+            <StickerItem src={`${import.meta.env.BASE_URL}stickers/paper_plane.png`} onAdd={addSticker} />
+            <StickerItem src={`${import.meta.env.BASE_URL}stickers/rainbow.png`} onAdd={addSticker} />
+            <StickerItem src={`${import.meta.env.BASE_URL}stickers/stars.png`} onAdd={addSticker} />
+            <StickerItem src={`${import.meta.env.BASE_URL}stickers/stars2.png`} onAdd={addSticker} />
+            <StickerItem src={`${import.meta.env.BASE_URL}stickers/sun.png`} onAdd={addSticker} />
           </div>
         </div>
       </div>
